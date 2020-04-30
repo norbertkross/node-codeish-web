@@ -1,6 +1,6 @@
 const express = require("express");
 const signUpRouter = express.Router();
-const mysqlConnection = require("../mysqlConnection/connections");
+const mysqlConnection = require("../MysqlConnection/connections");
 const encryptPass = require("./EncryptDecrypt/encrypt");
 const mailReovery = require("./sendUserEmails/emailConfirmation");
 const moment = require("moment");
