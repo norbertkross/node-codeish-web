@@ -1,6 +1,6 @@
 const express = require("express");
 const verifyLocalRouter = express.Router();
-const mysqlConnection = require("../../mysqlConnection/connections");
+const mysqlConnection = require("../../MysqlConnection/connections");
 
 
 verifyLocalRouter.post("/localVerify",(req,res,err)=>{

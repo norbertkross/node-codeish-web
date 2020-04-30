@@ -1,6 +1,6 @@
 const express = require("express");
 const loginRouter = express.Router();
-const mysqlConnection = require("../mysqlConnection/connections");
+const mysqlConnection = require("../MysqlConnection/connections");
 const encryptPass = require("./EncryptDecrypt/encrypt");
 
 
