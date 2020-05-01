@@ -21,6 +21,7 @@ articlesIdRouter.post("/thisArticle",(req,res,err)=>{
                  if(!err){
                    res.send(rows);
                    //res.json("Registration Failed");
+                 }else{
                    console.log(err);
                  }
 

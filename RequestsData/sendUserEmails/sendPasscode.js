@@ -202,13 +202,13 @@ var sendVerfCode = function (userEmail,theusername,vefCode){
              <h3 style="font-size:1.5em; color:#6d6d6d; margin: 2em 0;">
                       About Us:
                   </h3>
-                  <h4><p>Codeish is the smart way for developers to learn and engage themselves in our developer community, we want to pass on the knowlege and experience we have gained over the years to you. Let us show you how it works.</p></h4>
+                  <h4><p>Codeish is the smart way for developers to learn and engage themselves in developer communities and activities, we meet you where you are and get you where you want to go. Let us show you how it works.</p></h4>
 
 
 
             <hr style="width: 350px;margin: 60px auto; height: 0;
           border: 0;border-top: 1px solid #eee;">
-            <a id="shop" href="https://codeish.surge.sh/" style="text-decoration: none; font-weight:bold;">
+            <a id="shop" href="http://www.codeish.live" style="text-decoration: none; font-weight:bold;">
               <div class="button" style="text-transform: uppercase;background-color: #0F0E61;width: 300px;margin: 0 auto;border-radius: 2px;color: #FFF;padding: 26px; font-size:smaller; letter-spacing:.5px;">Get Started</div>
             </a>
             <img id="app" src="https://github.com/norbertkross/FlutterWeb/blob/master/hosted%20Images/tranparent%20Image.png?raw=true"
@@ -261,20 +261,20 @@ var sendVerfCode = function (userEmail,theusername,vefCode){
             <table cellpadding="0" cellspacing="0" align="center" style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; margin:0 auto; mso-line-height-rule:exactly">
               <tbody>
                 <tr style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly">
-                  <td style="border-right:1px solid #a6a6a6; color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; padding:0 10px 1px 10px; white-space:nowrap">© 2017 SeatGeek, Inc.</td>
-                  <td style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; padding:0 10px 1px 10px; white-space:nowrap"><a href="http://links.seatgeek.com/u/22a613d20b0c4e7f97e82d8e20d7b8a8?_e=&amp;_m=0a0bf9c7e82441fcbcdfcd495ba50e59&amp;utm_source=Iterable&amp;utm_medium=email&amp;utm_campaign=user-welcome-verify&amp;aid=11955&amp;pid=0a0bf9c7e82441fcbcdfcd495ba50e59"
-                      style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; text-decoration:underline" target="_blank">Privacy Policy</a></td>
-                  <td style="border-left:1px solid #a6a6a6; color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; padding:0 10px 1px 10px; white-space:nowrap"><a href="http://links.seatgeek.com/u/cd05db6a217b497d8c4ae96d3a5a1f34?_e=&amp;_m=0a0bf9c7e82441fcbcdfcd495ba50e59&amp;utm_source=Iterable&amp;utm_medium=email&amp;utm_campaign=user-welcome-verify&amp;aid=11955&amp;pid=0a0bf9c7e82441fcbcdfcd495ba50e59"
-                      style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; text-decoration:underline" target="_blank">Terms of Use</a></td>
+                  <td style="border-right:1px solid #a6a6a6; color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; padding:0 10px 1px 10px; white-space:nowrap">© 2020 Codeish .</td>
+                  <td style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; padding:0 10px 1px 10px; white-space:nowrap"><a href="http://www.codeish.live"
+                      style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; text-decoration:underline" target="_blank">Codeish</a></td>
+                  <td style="border-left:1px solid #a6a6a6; color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; padding:0 10px 1px 10px; white-space:nowrap"><a href="http://www.codeish.live/#/about-codeish"
+                      style="color:#a6a6a6; font-family:Helvetica, Arial, sans-serif; font-size:13px; line-height:13px; mso-line-height-rule:exactly; text-decoration:underline" target="_blank">About</a></td>
                 </tr>
               </tbody>
             </table>
             <br>
             <!-- <div style="margin-bottom: 4px;">Codeish</div>
-            <div style="margin-bottom: 4px;">Sftware Technologies</div>
+            <div style="margin-bottom: 4px;">Software Technologies</div>
             <div style="margin-bottom: 4px;">Accra - Ghana</div> -->
             <div style="margin-bottom: 20px;">
-            </a><a href="#" title="Unsubscribe from Sprout Social Emails" target="_blank" style="color:#999999; font-weight:700; text-decoration:none; ">Unsubscribe</a>
+            </a><a href="#" title="Unsubscribe from Codeish Emails" target="_blank" style="color:#999999; font-weight:700; text-decoration:none; ">Unsubscribe</a>
             </div>
           </div>
 

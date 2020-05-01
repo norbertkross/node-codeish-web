@@ -25,6 +25,7 @@ const RESOURCES = {
 "assets/programmer.jpeg": "3f1666be4f8576587292be9cc01ac2f7",
 "assets/programmerBuild.jpg": "4e1460caf549e83fa0be6e0392e3470f",
 "assets/puzzle.jpg": "b0968dd998f121c2116244cec1d8d282",
+"assets/secure.png": "c718ce003b164acdf4371bdd9b42acf8",
 "assets/slack.png": "f5f36ee1268a77884847617b09bbe1a7",
 "assets/spin.gif": "58e4a4e4fa041a11f796a2014b1bcfa4",
 "assets/study_desk.jpg": "199e346a9c5fd8e020839052076a5978",
@@ -37,7 +38,7 @@ const RESOURCES = {
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "53e8e6912f8f18ce922e11ec096011f2"
+"main.dart.js": "6ba943150a8b43193f3ff67f2a4a84e4"
 };
 
 self.addEventListener('activate', function (event) {
