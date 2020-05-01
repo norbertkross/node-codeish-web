@@ -164,7 +164,7 @@ var endFile = baseurl+"/webtem/"+remainingPath
 console.log(`URL: ${endFile}`);
 console.log(`FOlder TO DATABASE:  ${folderName}`);
    //INSERT The Incoming Data Into Users Table
-    const myQuery = `INSERT INTO templates (title,description,time, date,picture,folderUrl,userid) VALUES ("${title}", "${description}", '${curtime}','${curdate}', '${endFile}',"${folderName}",'${userid}')`
+    const myQuery = `INSERT INTO Templates (title,description,time, date,picture,folderUrl,userid) VALUES ("${title}", "${description}", '${curtime}','${curdate}', '${endFile}',"${folderName}",'${userid}')`
 
              mysqlConnection.query(myQuery,
                  (err,rows,cols)=>{

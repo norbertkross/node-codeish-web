@@ -9,7 +9,7 @@ passcodeRouter.post("/passcode",(req,res,err)=>{
   var email = req.query.email
 
   // Fetch Data From User With Incoming ID
-  mysqlConnection.query(`SELECT * FROM verifiedusers WHERE verificationCode = "${passCode}" AND email = "${email}" `,
+  mysqlConnection.query(`SELECT * FROM VerifiedUsers WHERE verificationCode = "${passCode}" AND email = "${email}" `,
       (err,rows,cols)=>{
          if(!err){
            //console.log(rows);

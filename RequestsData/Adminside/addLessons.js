@@ -45,15 +45,15 @@ if(sendfile != null){
       console.log("yES oK");
 
 
-  const myQuery = `INSERT INTO lessons (title, description, videoUrl, typeOf, time, date,courseid) VALUES ("${title}", "${description}", "${endFile}","${typeOf}", '${curtime}', '${curdate}','${courseid}')`
+  const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date,courseid) VALUES ("${title}", "${description}", "${endFile}","${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 // When The Users Data Has Been Fetched INSERT The Incoming Data Into Users Table
                mysqlConnection.query(myQuery,
                    (err,rows,cols)=>{
                       if(!err){
-                        res.json("Article Published Successfully");
+                        res.json("Lesson Published Successfully");
                       }else {
                         console.log(err);
-                        res.json("Failed To Insert Picture Article")
+                        res.json("Failed To Insert Picture Lesson")
                       }
                   });
             }
@@ -67,7 +67,7 @@ else {
 // Else IF The User Has Not choosen Any New Picture To Send With The Articles
 
 // INSERT The Incoming Data Into Users Table
-const myQuery = `INSERT INTO lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
+const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 
          mysqlConnection.query(myQuery,
              (err,rows,cols)=>{

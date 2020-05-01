@@ -16,7 +16,7 @@ console.log(`HEADING:  ${head}`);
 console.log(`BODY:  \n ${body}`);
 
 console.log(`MINS:  ${mins}`);
-  const myQuery = `UPDATE articles SET heading="${head}", article='${body}', mins='${mins}' WHERE articleId='${articleid}'`;
+  const myQuery = `UPDATE Articles SET heading="${head}", article='${body}', mins='${mins}' WHERE articleId='${articleid}'`;
 
   mysqlConnection.query(
   myQuery,(err,rows,cols) =>{

@@ -24,7 +24,7 @@ verifyResetRouter.post("/verifyResetEmail",(req,res,err)=>{
                var name = rows[0].name;
 
 //REPLACE INTO
-               mysqlConnection.query(`REPLACE INTO verifiedusers (verifyid,email,verificationCode) VALUES ('null',"${email}","${verificationCode}")`,
+               mysqlConnection.query(`REPLACE INTO VerifiedUsers (verifyid,email,verificationCode) VALUES ('null',"${email}","${verificationCode}")`,
                    (err,rows,cols)=>{
                       if(!err){
 

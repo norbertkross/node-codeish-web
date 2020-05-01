@@ -51,7 +51,7 @@ var myQuery = `UPDATE Users SET isVerified = "1" WHERE email = "${uemail}"`;
                       </html>`);
 
     // Add To User Notifications
-    const notify = `INSERT INTO notifications (head,message,msgtime,msgdate,toall,userid) VALUES("Email verification Succeeded","Congrats! You Have Successfully Verified Your Email","${curtime}","${curdate}","0","${userid}" )`;
+    const notify = `INSERT INTO Notifications (head,message,msgtime,msgdate,toall,userid) VALUES("Email verification Succeeded","Congrats! You Have Successfully Verified Your Email","${curtime}","${curdate}","0","${userid}" )`;
     mysqlConnection.query(notify,
         (err,rows,cols)=>{
            if(!err){

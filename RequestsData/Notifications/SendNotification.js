@@ -18,7 +18,7 @@ sendNotificationRouter.post("/sendnotifications",(req,res,err)=>{
 
 console.log(`userid: ${userid}`);
 //"${userid == 0?null:userid}"
-const myQuery = `INSERT INTO notifications (head,message,msgtime,msgdate,toall,userid) VALUES("${head}","${message}","${curtime}","${curdate}","${toall}",${userid == 0?null:`"${userid}"`})`;
+const myQuery = `INSERT INTO Notifications (head,message,msgtime,msgdate,toall,userid) VALUES("${head}","${message}","${curtime}","${curdate}","${toall}",${userid == 0?null:`"${userid}"`})`;
 
 
   mysqlConnection.query(myQuery,

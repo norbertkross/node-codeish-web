@@ -12,7 +12,7 @@ addArticleRouter.post("/addtemplates", upload.single("picture"),(req,res,err)=>{
   // GET Current Date And Time
   var curtime = moment().utc().format('HH:mm:ss')
   var curdate = moment().format('YYYY-MM-DD')
-  
+
 var courseid = req.query.courseid
 var title = req.query.title
 var description = req.query.description
@@ -41,7 +41,7 @@ if(sendfile != null){
       console.log("yES oK");
 
 
-  const myQuery = `INSERT INTO lessons (title, description, videoUrl, typeOf, time, date,courseid) VALUES ("${title}", "${description}", "${endFile}","${typeOf}", '${curtime}', '${curdate}','${courseid}')`
+  const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date,courseid) VALUES ("${title}", "${description}", "${endFile}","${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 // When The Users Data Has Been Fetched INSERT The Incoming Data Into Users Table
                mysqlConnection.query(myQuery,
                    (err,rows,cols)=>{
@@ -63,7 +63,7 @@ else {
 // Else IF The User Has Not choosen Any New Picture To Send With The Articles
 
 // INSERT The Incoming Data Into Users Table
-const myQuery = `INSERT INTO lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
+const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 
          mysqlConnection.query(myQuery,
              (err,rows,cols)=>{

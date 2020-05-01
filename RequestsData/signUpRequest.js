@@ -46,7 +46,7 @@ var randomPasswordRecoveryCode = Math.floor(Math.random() * 199897864369799990);
   var headImg = getRandomPic[rand];
 
 
- mysqlConnection.query(`SELECT COUNT(1) AS UserExist FROM users WHERE email = "${email}"`,
+ mysqlConnection.query(`SELECT COUNT(1) AS UserExist FROM Users WHERE email = "${email}"`,
  (err,rows,cols)=>{
 
 
