@@ -50,7 +50,7 @@ sendChatMessageRouter.post("/sendChatMessage", upload.single("picture"),(req,res
                var usersname = rows[0].name;
                var pic = rows[0].pic;
 
-               const myQuery = `INSERT INTO chatmessages (usersname, msg, pictureMsg, time, date, userPicture, userid ) VALUES ("${usersname}","${messageText}","${endFile}",'${curtime}','${curdate}','${pic}','${userid}')`;
+               const myQuery = `INSERT INTO ChatMessages (usersname, msg, pictureMsg, time, date, userPicture, userid ) VALUES ("${usersname}","${messageText}","${endFile}",'${curtime}','${curdate}','${pic}','${userid}')`;
 
               mysqlConnection.query(myQuery,
                   (err,rows,cols)=>{
@@ -89,7 +89,7 @@ if (rows.length != 0){
           var usersname = rows[0].name;
           var pic = rows[0].pic;
 
-          const myQuery = `INSERT INTO chatmessages (usersname, msg, pictureMsg, time, date, userPicture, userid ) VALUES ("${usersname}","${messageText}","none",'${curtime}','${curdate}',"${pic}",'${userid}')`;
+          const myQuery = `INSERT INTO ChatMessages (usersname, msg, pictureMsg, time, date, userPicture, userid ) VALUES ("${usersname}","${messageText}","none",'${curtime}','${curdate}',"${pic}",'${userid}')`;
 
          mysqlConnection.query(myQuery,
              (err,rows,cols)=>{
