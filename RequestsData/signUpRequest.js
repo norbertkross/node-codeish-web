@@ -66,7 +66,7 @@ var randomPasswordRecoveryCode = Math.floor(Math.random() * 199897864369799990);
               console.log(`The Random Recovery Number: ${randomPasswordRecoveryCode}`);
 
 // Parser Error if no Single Quotes around variable putting single quotes around your values, so you're doubling that up by adding them yourself
-                 mysqlConnection.query(`INSERT INTO Users (userid,name, email, password, pic, verificationCode,isVerified, Time, Date,userlocation,github,about,joinedOn) VALUES ("${uid}","${name}", "${email}", '${password}', '${pic == null?headImg:pic}', '${randomPasswordRecoveryCode}','0','${time}','${date}','No Location','github.com','No Description or About Yet ','${date}')`,
+                 mysqlConnection.query(`INSERT INTO Users (userid,name, email, password, pic, verificationCode,isVerified, Time, Date,userlocation,github,about,joinedOn) VALUES ("${uid}","${name}", "${email}", '${password}', '${pic == null?headImg:pic}', '${randomPasswordRecoveryCode}','0','${time}','${date}','No Location','github.com','No Description or About Yet ','${date}'); INSERT INTO Notifications (head,message,msgtime,msgdate,toall,userid) VALUES("Welcome to codeish","We are glad you joined us. We hope you have an amazing time here","${time}","${date}","0", "${uid}") `,
                  (err,rows,fields)=>{
                      if(!err){
                          res.json("Registration Succeeded");
