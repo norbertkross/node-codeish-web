@@ -1,9 +1,9 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f34b9caf23d3206e10f6a11c6c61e04b",
+  "assets/2336.jpg": "204cf3b90c271a18575a81f69ce0f4fa",
+"assets/AssetManifest.json": "f34b9caf23d3206e10f6a11c6c61e04b",
 "assets/astore.png": "9fef0094f21dc756d50d570b0f371790",
-"assets/buildIll.png": "675289cf0a92dcd521ede000d649797e",
 "assets/codeNinja.jpg": "ea579a11d6c862421a5e03b0081a08a3",
 "assets/codingRocket2.png": "82739ba18121cff86805e24001f926e1",
 "assets/dartLogo.png": "a2292b8c9422d5be494e950cd0bb10c7",
@@ -20,25 +20,24 @@ const RESOURCES = {
 "assets/load.gif": "ed23685339ada1b6d88008cbe1a11e98",
 "assets/meeting.jpg": "75c7d37c4ebb5c0aefe51e7235d7c855",
 "assets/myzipic.png": "4bc1ffb1bf841f88d81dc6b3866f7669",
+"assets/nodetuts.png": "40aef24f8cf3f4dc6af90c7a946308a3",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "assets/programmer.jpeg": "3f1666be4f8576587292be9cc01ac2f7",
-"assets/programmerBuild.jpg": "4e1460caf549e83fa0be6e0392e3470f",
-"assets/puzzle.jpg": "b0968dd998f121c2116244cec1d8d282",
+"assets/puzzle.jpg": "841cc5ba46525fa5d64bca15d6201491",
 "assets/secure.png": "c718ce003b164acdf4371bdd9b42acf8",
 "assets/slack.png": "f5f36ee1268a77884847617b09bbe1a7",
 "assets/spin.gif": "58e4a4e4fa041a11f796a2014b1bcfa4",
-"assets/study_desk.jpg": "199e346a9c5fd8e020839052076a5978",
+"assets/study_desk.jpg": "db88c5824393d20222087e6f2a15175b",
 "assets/tch.png": "c46b94ce7d9dfe616e186e6b57f4d6f8",
 "assets/twitter.png": "6918db95c0f5675ee30e5f6f3445daa6",
-"assets/uidesign.jpg": "4e1460caf549e83fa0be6e0392e3470f",
 "assets/web/favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "assets/web/index.html": "22642fabe28949d18988b9d963a4650e",
 "/": "22642fabe28949d18988b9d963a4650e",
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "411e2ce02506a946c7545d2401ab52c1"
+"main.dart.js": "9207fe02ffeaaabd1dd476b74a4b218b"
 };
 
 self.addEventListener('activate', function (event) {
