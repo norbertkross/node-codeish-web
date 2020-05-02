@@ -33898,7 +33898,7 @@ s.c3("/verify",t,u.K)},
 $S:0}
 F.aak.prototype={
 $0:function(){var t=this.a.J(u.I)
-t.c3("/all-lessons/FLutter Tutorials For Beginers/1",null,u.K)
+t.c3("/all-lessons/Flutter Tutorials For Beginers/1",null,u.K)
 P.l("Tapped any part of card")},
 $S:0}
 F.aam.prototype={
@@ -34954,16 +34954,17 @@ return P.M(null,s)}})
 return P.N($async$cA,s)},
 Sm:function(a){this.v(new D.a6H(this,a))},
 nR:function(a,b,c){return this.UK(a,b,c)},
-UK:function(a,b,c){var t=0,s=P.O(u.z),r=this,q,p,o,n
+UK:function(a,b,c){var t=0,s=P.O(u.z),r=this,q,p,o,n,m
 var $async$nR=P.K(function(d,e){if(d===1)return P.L(e,s)
 while(true)switch(t){case 0:q=u.z
-o=Y
-n=P
+n=Y
+m=P
 t=2
 return P.a6(K.xn(r.Q,R.lR("application","octet-stream",null),H.b(r.x)),$async$nR)
-case 2:p=o.wj(n.ad(["picture",e],u.N,q))
+case 2:p=n.wj(m.ad(["picture",e],u.N,q))
+o=r.cx
 t=3
-return P.a6(U.iS(null).lz("http://127.0.0.1:3000/uploadCourse?title="+H.b(c)+"&description="+H.b(a)+"&price="+H.b(r.f)+"&baseurl="+r.cx,p,new D.a6E(r),q).aU(new D.a6F(r),u.P).bV(new D.a6G(r)),$async$nR)
+return P.a6(U.iS(null).lz(o+"/uploadCourse?title="+H.b(c)+"&description="+H.b(a)+"&price="+H.b(r.f)+"&baseurl="+o,p,new D.a6E(r),q).aU(new D.a6F(r),u.P).bV(new D.a6G(r)),$async$nR)
 case 3:return P.M(null,s)}})
 return P.N($async$nR,s)}}
 D.a6K.prototype={
