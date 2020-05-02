@@ -14720,7 +14720,7 @@ this.b=b},
 agr:function agr(a){this.a=a},
 ags:function ags(a){this.a=a},
 agq:function agq(a){this.a=a},
-ay3:function(){var t=new Z.jH(U.au2("http://167.99.22.32:80",P.ad(["transports",H.a(["websocket"],u.s)],u.N,u.z)),[],new R.af(H.a([],u.u),u.A))
+ay3:function(){var t=new Z.jH(U.au2("http://codeish.live",P.ad(["transports",H.a(["websocket"],u.s)],u.N,u.z)),[],new R.af(H.a([],u.u),u.A))
 t.RG()
 return t},
 jH:function jH(a,b,c){var _=this
@@ -32510,7 +32510,7 @@ $R:0,
 $S:0}
 T.o0.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A,q=H.a([],t)
-return new T.B2(new P.j(4278651705),new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(q,r)),new D.bw(C.J,new R.af(H.a([],t),r)),U.iS(null),P.aa("(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])",!0,!1),K.asL(),"http://167.99.22.32:80",C.p)}}
+return new T.B2(new P.j(4278651705),new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(q,r)),new D.bw(C.J,new R.af(H.a([],t),r)),U.iS(null),P.aa("(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])",!0,!1),K.asL(),"http://codeish.live",C.p)}}
 T.B2.prototype={
 ip:function(){var t=0,s=P.O(u.z),r=this,q,p,o,n
 var $async$ip=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -32886,7 +32886,7 @@ t.c3("/password-recovery",null,u.K)},
 $S:0}
 S.oy.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A,q=H.a([],t)
-return new S.Bq(new P.j(4278651705),new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(q,r)),new D.bw(C.J,new R.af(H.a([],t),r)),H.a([],u.s),P.aa("(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])",!0,!1),"http://167.99.22.32:80",C.p)}}
+return new S.Bq(new P.j(4278651705),new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(q,r)),new D.bw(C.J,new R.af(H.a([],t),r)),H.a([],u.s),P.aa("(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])",!0,!1),"http://codeish.live",C.p)}}
 S.Bq.prototype={
 Yj:function(a){if(a==null)return!1
 else return H.Ia(a,null)!=null},
@@ -33157,7 +33157,7 @@ A:function(a){var t=null,s=u.p
 return new T.X(new V.J(F.S(a,!1).a.a*0.03,8,8,8),M.A(t,B.bG(H.a([T.ah(H.a([V.c_(T.ah(H.a([new T.X(new V.J(15,15,15,15),T.bH(C.R,H.a([M.A(t,new T.w(800,t,M.A(t,this.a.c,t,t,t,t,t,t,t,t,t),t),t,t,t,t,t,t,t,t,t)],s),C.N,t,C.M,t),t)],s),C.j,t,C.m,C.o),C.f,20,t,t)],s),C.j,t,C.m,C.o)],s),t,t,t,C.u,!1),t,t,t,t,t,t,t,t,t),t)}}
 N.nc.prototype={
 P:function(){var t=4278651705
-return new N.LG(new N.b8(null,u.dv),new P.j(t),new P.j(t),"http://167.99.22.32:80",["",""],new P.eq(Date.now(),!1),C.p)}}
+return new N.LG(new N.b8(null,u.dv),new P.j(t),new P.j(t),"http://codeish.live",["",""],new P.eq(Date.now(),!1),C.p)}}
 N.LG.prototype={
 cW:function(){var t=0,s=P.O(u.z),r=this,q,p
 var $async$cW=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -33357,7 +33357,7 @@ N.a8q.prototype={
 $0:function(){this.a.d=!0},
 $S:0}
 A.mt.prototype={
-P:function(){var t="http://167.99.22.32:80"
+P:function(){var t="http://codeish.live"
 return new A.Ql(t,U.au2(t,P.ad(["transports",H.a(["websocket"],u.s)],u.N,u.z)),0.001,null,C.p)}}
 A.Ql.prototype={
 iq:function(a){this.v(new A.aib(this,H.a(a.split("/"),u.s)))
@@ -33636,7 +33636,7 @@ s.c5(0)
 return s},
 qt:function(a){return!1}}
 K.lh.prototype={
-P:function(){return new K.LP(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new K.LP(new P.j(4278651705),"http://codeish.live",C.p)}}
 K.LP.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -34058,7 +34058,7 @@ $C:"$0",
 $R:0,
 $S:39}
 V.oR.prototype={
-P:function(){return new V.Pj(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new V.Pj(new P.j(4278651705),"http://codeish.live",C.p)}}
 V.Pj.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n,m,l,k
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -34119,7 +34119,7 @@ s.c3(r,null,u.K)},
 $S:0}
 R.nX.prototype={
 P:function(){var t=4278651705
-return new R.Nl(new P.j(t),new P.j(t),"http://167.99.22.32:80",C.p)}}
+return new R.Nl(new P.j(t),new P.j(t),"http://codeish.live",C.p)}}
 R.Nl.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n,m,l,k
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -34342,7 +34342,7 @@ A.aj_.prototype={
 $0:function(){this.a.y=!1},
 $S:0}
 V.pk.prototype={
-P:function(){return new V.QC("http://167.99.22.32:80",C.p)}}
+P:function(){return new V.QC("http://codeish.live",C.p)}}
 V.QC.prototype={
 A:function(a){var t=null,s=F.S(a,!1).a,r=F.S(a,!1).a,q=this.a,p=q.c,o=u.p
 return M.bT(t,t,B.bG(H.a([T.ah(H.a([M.A(t,L.aqI(s.b,!0,'  <!DOCTYPE html>\n<html>\n\n<body style="background-color:#0F0E61;margin:10px;">\n<xmp theme="united" >\n\n\n<div style ="background-color:#F8F8FB;padding: 10px;">\n</br>\n\n## '+H.b(q.d)+"\n  "+H.b(p)+'\n\n\n</div>\n</xmp>\n\n<script src="'+this.d+'/strp-dwn/strapdown.js"></script>\n\n</body>\n\n</html>\n',r.a),C.f,t,t,t,t,t,t,t,t)],o),C.j,t,C.m,C.o)],o),t,t,t,C.u,!1),t)}}
@@ -34454,7 +34454,7 @@ $C:"$2",
 $R:2,
 $S:249}
 Y.oe.prototype={
-P:function(){return new Y.NQ(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new Y.NQ(new P.j(4278651705),"http://codeish.live",C.p)}}
 Y.NQ.prototype={
 eE:function(a){return this.NE(a)},
 NE:function(a){var t=0,s=P.O(u.j),r,q=this,p,o,n
@@ -34608,7 +34608,7 @@ $0:function(){var t=this.a.J(u.I)
 t.bx(null)},
 $S:0}
 S.oK.prototype={
-P:function(){return new S.P6(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new S.P6(new P.j(4278651705),"http://codeish.live",C.p)}}
 S.P6.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -34662,7 +34662,7 @@ C.aA.fh(window,s+"/sendDownload?folderpath="+H.b(r),H.b(t.c)+H.b(t.d))},
 $S:0}
 L.pf.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A
-return new L.Qt(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://167.99.22.32:80",0.001,C.p)}}
+return new L.Qt(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://codeish.live",0.001,C.p)}}
 L.Qt.prototype={
 iq:function(a){this.v(new L.aiG(this,a))
 P.l("full type "+H.b(a)+" type Of File: "+H.b(this.Q)+" ")},
@@ -34853,7 +34853,7 @@ $1:function(a){this.a.ip()
 return null},
 $S:35}
 D.ph.prototype={
-P:function(){return new D.Qx(K.asL(),"http://167.99.22.32:80",C.p)}}
+P:function(){return new D.Qx(K.asL(),"http://codeish.live",C.p)}}
 D.Qx.prototype={
 ip:function(){var t=0,s=P.O(u.z),r=this,q,p,o,n,m,l
 var $async$ip=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -34925,7 +34925,7 @@ an:function(){this.aE()
 $.bh.z$.push(new D.akh(this))}}
 D.mV.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A
-return new D.KV(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://167.99.22.32:80",0.001,C.p)}}
+return new D.KV(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://codeish.live",0.001,C.p)}}
 D.KV.prototype={
 A:function(a){var t,s,r,q,p,o,n,m,l=this,k=null,j=F.S(a,!1).a,i=l.Q
 j=M.A(k,new T.a7(C.n,k,k,i==null?M.A(k,L.t("Upload image should show here.",k,k,k,k,A.o(k,k,C.f,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k),k),k,k,k,k,k,k,k,k,k):M.A(k,U.FW(i,k,k),k,k,k,k,k,k,k,k,k),k),k,k,k,k,300,k,k,k,j.a*0.6)
@@ -35057,7 +35057,7 @@ t.cy=0.001},
 $S:0}
 O.mW.prototype={
 P:function(){var t=4278651705,s=u.u,r=H.a([],s),q=u.A
-return new O.KW(new D.bw(C.J,new R.af(r,q)),new D.bw(C.J,new R.af(H.a([],s),q)),"http://167.99.22.32:80",0.001,new P.j(t),new P.j(t),null,C.p)}}
+return new O.KW(new D.bw(C.J,new R.af(r,q)),new D.bw(C.J,new R.af(H.a([],s),q)),"http://codeish.live",0.001,new P.j(t),new P.j(t),null,C.p)}}
 O.KW.prototype={
 iq:function(a){this.v(new O.a7b(this,H.a(a.split("/"),u.s)))
 P.l("The type Of File: "+H.b(this.Q))},
@@ -35340,7 +35340,7 @@ Y.KY.prototype={
 A:function(a){return new Y.zM(null)}}
 Y.zM.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A
-return new Y.QF(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://167.99.22.32:80",C.p)}}
+return new Y.QF(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://codeish.live",C.p)}}
 Y.QF.prototype={
 uB:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$uB=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -35408,7 +35408,7 @@ o.c5(0)
 return o},
 qt:function(a){return!1}}
 U.nF.prototype={
-P:function(){return new U.MT(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new U.MT(new P.j(4278651705),"http://codeish.live",C.p)}}
 U.MT.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -35467,7 +35467,7 @@ $1:function(a){var t=this.a
 return new Z.iu(t.length!==0?t:"0",null)},
 $S:142}
 A.nG.prototype={
-P:function(){return new A.MU(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new A.MU(new P.j(4278651705),"http://codeish.live",C.p)}}
 A.MU.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -35549,7 +35549,7 @@ $1:function(a){return new U.nF(null)},
 $S:231}
 Z.iu.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A
-return new Z.Pc(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://167.99.22.32:80",C.p)}}
+return new Z.Pc(new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(H.a([],t),r)),"http://codeish.live",C.p)}}
 Z.Pc.prototype={
 qk:function(){var t=0,s=P.O(u.z),r,q=this,p,o,n
 var $async$qk=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -35621,7 +35621,7 @@ t.bx(null)},
 $S:0}
 Q.nn.prototype={
 P:function(){var t=4278651705
-return new Q.Mb(new P.j(t),new P.j(t),"http://167.99.22.32:80",C.p)}}
+return new Q.Mb(new P.j(t),new P.j(t),"http://codeish.live",C.p)}}
 Q.Mb.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -35648,41 +35648,40 @@ Q.a9s.prototype={
 $1:function(a){P.l("THE PROBLEM: \n"+H.b(J.a1(a))+"\n")},
 $S:3}
 Q.a9r.prototype={
-$2:function(a4,a5){var t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c="headerpic",b="heading",a='" >\n  <img src="',a0="articleId",a1='">\n  <div style="  \n  display: flex;  \n  flex-direction: column;\n  background-color: #f1f1f1;\n  width: 250px;  \n  margin: 5px;\n  text-align: center;\n  line-height: 75px;\n  font-size: 30px;">\n\n  <div style="background-image: url(\'',a2="');background-repeat:no-repeat;background-position:center;background-size:cover;height:200px;width: 240px;\">\n  </div>\n  <b>",a3=a5.a
-if(a3===C.ba)return M.A(d,d,P.a8(C.x.Z(178.5),96,125,139),d,d,d,d,d,d,d,d)
-if(a3===C.bf){t=U.eb()
-return new T.a7(C.n,d,d,new T.a7(C.n,d,d,t,d),d)}if(a5.c!=null)return new T.a7(C.n,d,d,L.t("Could Not Connect ",d,d,d,d,A.o(d,d,C.t,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d),d),d)
+$2:function(a5,a6){var t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null,b="headerpic",a="heading",a0='" >\n  <img src="',a1="articleId",a2='">\n  <div style="  \n  display: flex;  \n  flex-direction: column;\n  background-color: #f1f1f1;\n  width: 250px;  \n  margin: 5px;\n  text-align: center;\n  line-height: 75px;\n  font-size: 30px;">\n\n  <div style="background-image: url(\'',a3="');background-repeat:no-repeat;background-position:center;background-size:cover;height:200px;width: 240px;\">\n  </div>\n  <b>",a4=a6.a
+if(a4===C.ba)return M.A(c,c,P.a8(C.x.Z(178.5),96,125,139),c,c,c,c,c,c,c,c)
+if(a4===C.bf){t=U.eb()
+return new T.a7(C.n,c,c,new T.a7(C.n,c,c,t,c),c)}if(a6.c!=null)return new T.a7(C.n,c,c,L.t("Could Not Connect ",c,c,c,c,A.o(c,c,C.t,c,c,c,c,c,c,c,c,c,c,c,c,c,!0,c,c,c,c,c,c),c),c)
 else{P.l('"before variables')
-s=a5.b
+s=a6.b
 t=J.ae(s)
 r=J.y(J.y(t.h(s,0),0),"author")
 q=J.a1(J.y(J.y(t.h(s,0),0),"mins"))
 p=J.a1(J.y(J.y(t.h(s,0),0),"views"))
-o=J.y(J.y(t.h(s,0),0),c)
+o=J.y(J.y(t.h(s,0),0),b)
 n=J.y(J.y(t.h(s,0),0),"userpic")
-m=J.y(J.y(t.h(s,0),0),b)
+m=J.y(J.y(t.h(s,0),0),a)
 l=J.y(J.y(t.h(s,0),0),"artdate")
 k=J.y(J.y(t.h(s,0),0),"article")
 P.l("...after variables...")
 j=T.qk("yyyy-MM-dd").i2(P.nm(l))
 P.l("after date")
-if(t.gm(s)===0)t=new T.a7(C.n,d,d,L.t("Nothing To Show",d,d,d,d,A.o(d,d,C.f,d,d,d,d,d,d,d,d,18,d,d,d,d,!0,d,d,d,d,d,d),d),d)
-else{i=F.S(a4,!1).a
-h=F.S(a4,!1).a
+if(t.gm(s)===0)t=new T.a7(C.n,c,c,L.t("Nothing To Show",c,c,c,c,A.o(c,c,C.f,c,c,c,c,c,c,c,c,18,c,c,c,c,!0,c,c,c,c,c,c),c),c)
+else{i=F.S(a5,!1).a
+h=F.S(a5,!1).a
 g=C.C.gdh().aZ(k)
 P.l("picUrl: "+H.b(o))
-f='<!DOCTYPE html>\n<html>\n<head>\n \n</head>\n<body style="background-color:#0F0E61 ;">\n<xmp theme="united" >\n<style>\n\n</style>\n\n<div style ="background-color:#F8F8FB;padding: 10px;">\n\n<a href="http://www.codeish.live"><h1><b>Codeish</b></h1></a>\n\n<div class="headerDiv" >\n<div style="background-color:lightblue;background-image: url(\''+H.b(o)+'\');background-repeat:no-repeat;background-position:center;background-size:cover;height:200px;\twidth:100%;">\n  <br>\n  <br>\n\n</div>\n\n\n\n<div style="  \n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n">\n\n\n  <a href="'+H.b(n)+a+H.b(n)+'" alt="Avatar" style="vertical-align: middle;width: 50px;height: 50px;border-radius: 50%;padding: 10px;">\n  </a>\n\n\n  <div style="  \n  display: flex;\n  padding: 10px;  \n  flex-direction: column;\n  ">\n\n  <P><b>'
-e=r.length!==0
-f=f+(!e||r==="null"?"Author":r)+"</b></p>\n  "+j+" &#x231A; "
-f=f+(q.length!==0?q:"1")+" "
-f=f+(P.dD(q,d,d)>1?"mins":"min")+" read   \n  "
-f=f+(p.length===0||p==="null"?"0":p)+" views \n</div>\n\n</div>\n\n\n\n</div>\n<br>\n\n # "+H.b(m)+"\n</br></br>          \n "+C.C.aL(0,g)+'\n\n<br>\n\n\n\n\n\n\n\n\n<div style="  \n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  ">\n\n\n  <a href="'+H.b(n)+a+H.b(n)+'" alt="Avatar" style="vertical-align: middle;width: 50px;height: 50px;border-radius: 50%;padding: 10px;">\n  </a>\n\n\n  <div style="  \n  display: flex;\n  padding: 10px;  \n  flex-direction: column;\n  ">\n\n  WRITTEN BY\n  <b><p style="font-size:x-large">'
-e=this.a.r
-h=T.ah(H.a([M.A(d,L.aqI(i.b,!0,f+(!e||r==="null"?"Author":r)+'</p></b>\n     \n  \n</div>\n\n</div>\n<br>\n\n\n\n\n<!-- The Next Articles -->\n<div style="  \n  display: flex;\n  flex-wrap: wrap;\n  ">\n\n\n\n<a href="'+C.d.K(e+"//#/articles/",J.a1(J.y(J.y(t.h(s,1),0),a0)))+a1+H.b(J.y(J.y(t.h(s,1),0),c))+a2+H.b(J.y(J.y(t.h(s,1),0),b))+'</b>\n  </div>\n</a>\n\n\n\n\n\n<a href="'+C.d.K(e+"//#/articles/",J.a1(J.y(J.y(t.h(s,1),1),a0)))+a1+H.b(J.y(J.y(t.h(s,1),1),c))+a2+H.b(J.y(J.y(t.h(s,1),1),b))+'</b>\n  </div>\n</a>\n\n\n\n\n<a href="'+C.d.K(e+"//#/articles/",J.a1(J.y(J.y(t.h(s,1),2),a0)))+a1+H.b(J.y(J.y(t.h(s,1),2),c))+a2+H.b(J.y(J.y(t.h(s,1),2),b))+'</b>\n  </div>\n</a>\n\n\n<a href="'+C.d.K(e+"//#/articles/",J.a1(J.y(J.y(t.h(s,1),3),a0)))+a1+H.b(J.y(J.y(t.h(s,1),3),c))+a2+H.b(J.y(J.y(t.h(s,1),3),b))+'</b>\n  </div>\n</a>\n\n\n</div>\n</div>\n\n</br></br></br></br></br></br>\n</xmp>\n\n<script src="'+e+'/strp-dwn/strapdown.js"></script>\n\n\n\n</body>\n</html>\n',h.a),C.f,d,d,d,d,d,d,d,d)],u.p),C.j,d,C.m,C.o)
-t=h}return t}},
+f=this.a.r
+e='<!DOCTYPE html>\n\n<body style="background-color:#0F0E61 ;">\n<xmp theme="united" >\n<style>\n\n</style>\n\n<div style ="background-color:#F8F8FB;padding: 10px;">\n\n<a href="'+f+'"><h1><b>Codeish</b></h1></a>\n\n<div class="headerDiv" >\n<div style="background-color:lightblue;background-image: url(\''+H.b(o)+'\');background-repeat:no-repeat;background-position:center;background-size:cover;height:200px;\twidth:100%;">\n  <br>\n  <br>\n\n</div>\n\n\n\n<div style="  \n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n">\n\n\n  <a href="'+H.b(n)+a0+H.b(n)+'" alt="Avatar" style="vertical-align: middle;width: 50px;height: 50px;border-radius: 50%;padding: 10px;">\n  </a>\n\n\n  <div style="  \n  display: flex;\n  padding: 10px;  \n  flex-direction: column;\n  ">\n\n  <P><b>'
+d=r.length!==0
+e=e+(!d||r==="null"?"Author":r)+"</b></p>\n  "+j+" &#x231A; "
+e=e+(q.length!==0?q:"1")+" "
+e=e+(P.dD(q,c,c)>1?"mins":"min")+" read   \n  "
+e=e+(p.length===0||p==="null"?"0":p)+" views \n</div>\n\n</div>\n\n\n\n</div>\n<br>\n\n # "+H.b(m)+"\n</br></br>          \n "+C.C.aL(0,g)+'\n\n<br>\n\n\n\n\n\n\n\n\n<div style="  \n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  ">\n\n\n  <a href="'+H.b(n)+a0+H.b(n)+'" alt="Avatar" style="vertical-align: middle;width: 50px;height: 50px;border-radius: 50%;padding: 10px;">\n  </a>\n\n\n  <div style="  \n  display: flex;\n  padding: 10px;  \n  flex-direction: column;\n  ">\n\n  WRITTEN BY\n  <b><p style="font-size:x-large">'
+t=T.ah(H.a([M.A(c,L.aqI(i.b,!0,e+(!d||r==="null"?"Author":r)+'</p></b>\n     \n  \n</div>\n\n</div>\n<br>\n\n\n\n\n<!-- The Next Articles -->\n<div style="  \n  display: flex;\n  flex-wrap: wrap;\n  ">\n\n\n\n<a href="'+C.d.K(f+"/#/articles/",J.a1(J.y(J.y(t.h(s,1),0),a1)))+a2+H.b(J.y(J.y(t.h(s,1),0),b))+a3+H.b(J.y(J.y(t.h(s,1),0),a))+'</b>\n  </div>\n</a>\n\n\n\n\n\n<a href="'+C.d.K(f+"/#/articles/",J.a1(J.y(J.y(t.h(s,1),1),a1)))+a2+H.b(J.y(J.y(t.h(s,1),1),b))+a3+H.b(J.y(J.y(t.h(s,1),1),a))+'</b>\n  </div>\n</a>\n\n\n\n\n<a href="'+C.d.K(f+"/#/articles/",J.a1(J.y(J.y(t.h(s,1),2),a1)))+a2+H.b(J.y(J.y(t.h(s,1),2),b))+a3+H.b(J.y(J.y(t.h(s,1),2),a))+'</b>\n  </div>\n</a>\n\n\n<a href="'+C.d.K(f+"/#/articles/",J.a1(J.y(J.y(t.h(s,1),3),a1)))+a2+H.b(J.y(J.y(t.h(s,1),3),b))+a3+H.b(J.y(J.y(t.h(s,1),3),a))+'</b>\n  </div>\n</a>\n\n\n</div>\n</div>\n\n</br></br></br></br></br></br>\n</xmp>\n\n<script src="'+f+'/strp-dwn/strapdown.js"></script>\n\n\n\n</body>\n',h.a),C.f,c,c,c,c,c,c,c,c)],u.p),C.j,c,C.m,C.o)}return t}},
 $S:18}
 T.n3.prototype={
-P:function(){return new T.Ls(new P.j(4278651705),new P.j(4280295457),"http://167.99.22.32:80",C.p)}}
+P:function(){return new T.Ls(new P.j(4278651705),new P.j(4280295457),"http://codeish.live",C.p)}}
 T.Ls.prototype={
 a6k:function(a,b,c,d,e,f,g){var t=null,s=T.qk("yyyy-MM-dd").i2(P.nm(d)),r=P.a8(51,255,255,255),q=K.cU(t,new D.eT(H.b(c),1),t,t),p=L.t("\n"+(g.length!==0?g:"Title")+" ",t,t,t,t,A.o(t,t,C.t,t,t,t,t,t,t,t,t,18,t,C.r,t,t,!0,t,t,t,t,t,t),t),o="\n"+(e.length!==0?e:"1")+" "
 return new L.aC(D.b1(t,V.c_(Q.dk(t,q,t,T.ah(H.a([L.t(o+(P.dD(e,t,t)>1?"mins":"min")+" read\n",t,t,t,t,A.o(t,t,C.f,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t),L.t("Author : "+H.b(b)+" \n",t,t,t,t,A.o(t,t,C.f,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t),L.t(s+"  ||  "+H.b(f)+"\n\n",t,t,t,t,A.o(t,t,C.f,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t)],u.p),C.cA,t,C.m,C.o),p,t),r,t,t,t),C.B,!1,t,t,t,t,t,t,t,t,t,t,t,new T.a8c(this,a),t,t,t,t,t,t),t)},
@@ -35774,7 +35773,7 @@ A:function(a){var t=null,s=u.p
 return new T.X(new V.J(F.S(a,!1).a.a*0.03,8,8,8),M.A(t,T.ah(H.a([V.c_(T.ah(H.a([new T.X(new V.J(15,15,15,15),T.bH(C.R,H.a([M.A(t,new T.w(800,t,M.A(t,this.a.c,t,t,t,t,t,t,t,t,t),t),t,t,t,t,t,t,t,t,t)],s),C.N,t,C.M,t),t)],s),C.j,t,C.m,C.o),C.E,20,t,t)],s),C.j,t,C.m,C.o),t,t,t,t,t,t,t,t,t),t)}}
 Q.nr.prototype={
 P:function(){var t=4278651705,s=u.u,r=H.a([],s),q=u.A
-return new Q.Mr(new D.bw(C.J,new R.af(r,q)),new D.bw(C.J,new R.af(H.a([],s),q)),new P.j(t),new P.j(t),"http://167.99.22.32:80",H.a([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],u.t),null,C.p)}}
+return new Q.Mr(new D.bw(C.J,new R.af(r,q)),new D.bw(C.J,new R.af(H.a([],s),q)),new P.j(t),new P.j(t),"http://codeish.live",H.a([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],u.t),null,C.p)}}
 Q.Mr.prototype={
 Oa:function(){this.v(new Q.a9V(this))},
 cW:function(){var t=0,s=P.O(u.z),r=this,q,p
@@ -35925,7 +35924,7 @@ if(t!=null)t.sct(0,!U.ch(this.c))
 this.bY()}}
 U.po.prototype={
 P:function(){var t=4278651705
-return new U.QM(new P.j(t),new P.j(t),"http://167.99.22.32:80",H.a([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],u.t),0.001,null,C.p)}}
+return new U.QM(new P.j(t),new P.j(t),"http://codeish.live",H.a([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],u.t),0.001,null,C.p)}}
 U.QM.prototype={
 cW:function(){var t=0,s=P.O(u.z),r=this,q,p
 var $async$cW=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -36338,7 +36337,7 @@ $1:function(a){return new T.nC(null)},
 $S:223}
 T.ou.prototype={
 P:function(){var t=u.u,s=H.a([],t),r=u.A,q=H.a([],t),p=H.a([],t)
-return new T.Oh("http://167.99.22.32:80",0.001,new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(q,r)),new D.bw(C.J,new R.af(p,r)),new D.bw(C.J,new R.af(H.a([],t),r)),C.p)}}
+return new T.Oh("http://codeish.live",0.001,new D.bw(C.J,new R.af(s,r)),new D.bw(C.J,new R.af(q,r)),new D.bw(C.J,new R.af(p,r)),new D.bw(C.J,new R.af(H.a([],t),r)),C.p)}}
 T.Oh.prototype={
 iq:function(a){this.v(new T.ael(this,H.a(a.split("/"),u.s)))
 P.l("full type "+a+" type Of File: "+H.b(this.id)+" ")},
@@ -36605,7 +36604,7 @@ $0:function(){var t=this
 t.a.a97(t.b,t.c,t.d)},
 $S:0}
 R.pg.prototype={
-P:function(){return new R.Qu(new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+P:function(){return new R.Qu(new P.j(4278651705),"http://codeish.live",C.p)}}
 R.Qu.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
@@ -36660,7 +36659,7 @@ return new Q.nr(t.a,t.b,t.c,t.d,null)},
 $S:201}
 Q.ot.prototype={
 P:function(){var t=null,s=A.o(t,t,C.E,t,t,t,t,t,t,t,t,15,t,t,t,t,!0,t,t,t,t,t,t),r=u.u,q=H.a([],r),p=u.A,o=H.a([],r),n=H.a([],r)
-return new Q.Og(s,new D.bw(C.J,new R.af(q,p)),new D.bw(C.J,new R.af(o,p)),new D.bw(C.J,new R.af(n,p)),new D.bw(C.J,new R.af(H.a([],r),p)),new P.j(4278651705),"http://167.99.22.32:80",C.p)}}
+return new Q.Og(s,new D.bw(C.J,new R.af(q,p)),new D.bw(C.J,new R.af(o,p)),new D.bw(C.J,new R.af(n,p)),new D.bw(C.J,new R.af(H.a([],r),p)),new P.j(4278651705),"http://codeish.live",C.p)}}
 Q.Og.prototype={
 b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
