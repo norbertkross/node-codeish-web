@@ -97,7 +97,9 @@ var imgUpload = function(req,randName){
         //res.json('OK: received ' + req.file.originalname);
         resolve("OK")
       });
-      src.on('error', function(err) { res.json('Something went wrong!'); });
+      src.on('error', function(err) {
+        log(err);
+        res.json('Something went wrong!'); });
       //reject("NO")
   });
 }
