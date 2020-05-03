@@ -2,7 +2,7 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/2336.jpg": "204cf3b90c271a18575a81f69ce0f4fa",
-"assets/AssetManifest.json": "f34b9caf23d3206e10f6a11c6c61e04b",
+"assets/AssetManifest.json": "622f60f388bb413eebda23abb38dfd4f",
 "assets/astore.png": "9fef0094f21dc756d50d570b0f371790",
 "assets/codeNinja.jpg": "ea579a11d6c862421a5e03b0081a08a3",
 "assets/codingRocket2.png": "82739ba18121cff86805e24001f926e1",
@@ -14,7 +14,7 @@ const RESOURCES = {
 "assets/geibr.gif": "2407b512f6f2eec61cd2f3136242a025",
 "assets/github.png": "89c2c0674bdba3d61daf6b1b1e5e82b5",
 "assets/gplay.png": "14ed7874b63b0ba9734b47e7dd2f0ff2",
-"assets/homePagePic.jpg": "f722d851e7dd6773f600d7556153d19f",
+"assets/homePagePic.jpg": "8ce44eb70abee0ed889c607004077bdb",
 "assets/kross.jpg": "ae1d7d0cecb19c78e9ebb5b48a09b2d0",
 "assets/LICENSE": "e3f4c2004a88324f34dc2f224cae8299",
 "assets/load.gif": "ed23685339ada1b6d88008cbe1a11e98",
@@ -34,10 +34,17 @@ const RESOURCES = {
 "assets/web/favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "assets/web/index.html": "22642fabe28949d18988b9d963a4650e",
 "/": "22642fabe28949d18988b9d963a4650e",
+"assets/web/strapdown.css": "298190b5ca76c135ce9cf6fe3c7b7f71",
+"assets/web/strapdown.js": "0acf6bf5f87905e53b31eb2c6558be51",
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "1e6d193bceacc7d666a1e70cb28e35df"
+"main.dart.js": "c6165ab9a58e2c76a2205c01957db254",
+"strapdown.css": "298190b5ca76c135ce9cf6fe3c7b7f71",
+"strapdown.js": "0acf6bf5f87905e53b31eb2c6558be51",
+"themes/LICENSE": "314e21a036e4ea071f111cb5deff83c1",
+"themes/README.md": "5d4ae77a905b350f8ac52dec7d7242f0",
+"themes/united.min.css": "e618d846867e454dfebeeb01e782d280"
 };
 
 self.addEventListener('activate', function (event) {
