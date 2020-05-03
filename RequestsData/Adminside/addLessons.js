@@ -3,7 +3,7 @@
 // VALUES ('${title}', '${description}', '${videoUrl}','${typeOf}', '${curtime}', '${curdate}','${userid}')`
 
 const express = require("express");
-const addArticleRouter = express.Router();
+const addLessonRouter = express.Router();
 const mysqlConnection = require("../../MysqlConnection/connections");
 var multer  = require('multer')
 var fs = require('fs');
@@ -11,7 +11,7 @@ const moment = require("moment");
 var upload = multer({ dest: 'uploads/LessonFiles/' })
 
 
-addArticleRouter.post("/uploadLesson", upload.single("picture"),(req,res,err)=>{
+addLessonRouter.post("/uploadLesson", upload.single("picture"),(req,res,err)=>{
   // GET Current Date And Time
   var curtime = moment().utc().format('HH:mm:ss')
   var curdate = moment().format('YYYY-MM-DD')
@@ -104,4 +104,4 @@ var imgUpload = function(req,randName){
   });
 }
 
-module.exports = addArticleRouter
+module.exports = addLessonRouter
