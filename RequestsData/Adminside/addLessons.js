@@ -66,6 +66,7 @@ else {
 
 // Else IF The User Has Not choosen Any New Picture To Send With The Articles
 
+  log("No Image");
 // INSERT The Incoming Data Into Users Table
 const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 
