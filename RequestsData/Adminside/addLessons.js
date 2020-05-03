@@ -36,6 +36,7 @@ var randName = Math.floor(Math.random() * 199897864369799990);
 console.log(`user id : ${courseid}`);
 
 if(sendfile != null){
+  console.log("There's an image");
   var filename = req.file.originalname
   var endFile = baseurl+"/postlsn/"+ randName+'-'+filename
   console.log("end File to add to DB: "+endFile);
@@ -66,7 +67,7 @@ else {
 
 // Else IF The User Has Not choosen Any New Picture To Send With The Articles
 
-  log("No Image");
+  console.log("No Image");
 // INSERT The Incoming Data Into Users Table
 const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 
