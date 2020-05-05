@@ -3,7 +3,7 @@
 // VALUES ('${title}', '${description}', '${videoUrl}','${typeOf}', '${curtime}', '${curdate}','${userid}')`
 
 const express = require("express");
-const addArticleRouter = express.Router();
+const addLessonRouter = express.Router();
 const mysqlConnection = require("../../MysqlConnection/connections");
 var multer  = require('multer')
 var fs = require('fs');
@@ -11,7 +11,7 @@ const moment = require("moment");
 var upload = multer({ dest: 'uploads/LessonFiles/' })
 
 
-addArticleRouter.post("/uploadLesson", upload.single("picture"),(req,res,err)=>{
+addLessonRouter.post("/uploadLesson", upload.single("picture"),(req,res,err)=>{
   // GET Current Date And Time
   var curtime = moment().utc().format('HH:mm:ss')
   var curdate = moment().format('YYYY-MM-DD')
@@ -36,6 +36,7 @@ var randName = Math.floor(Math.random() * 199897864369799990);
 console.log(`user id : ${courseid}`);
 
 if(sendfile != null){
+  console.log("There's an image");
   var filename = req.file.originalname
   var endFile = baseurl+"/postlsn/"+ randName+'-'+filename
   console.log("end File to add to DB: "+endFile);
@@ -66,6 +67,7 @@ else {
 
 // Else IF The User Has Not choosen Any New Picture To Send With The Articles
 
+  console.log("No Image");
 // INSERT The Incoming Data Into Users Table
 const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 
@@ -97,9 +99,11 @@ var imgUpload = function(req,randName){
         //res.json('OK: received ' + req.file.originalname);
         resolve("OK")
       });
-      src.on('error', function(err) { res.json('Something went wrong!'); });
+      src.on('error', function(err) {
+        log(err);
+        res.json('Something went wrong!'); });
       //reject("NO")
   });
 }
 
-module.exports = addArticleRouter
+module.exports = addLessonRouter
