@@ -39,7 +39,7 @@ const RESOURCES = {
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "a7e46470f640a0534d0f3aca94c7d00c",
+"main.dart.js": "bc55cfcb662ab1d849ee49083c56fef5",
 "strapdown.css": "298190b5ca76c135ce9cf6fe3c7b7f71",
 "strapdown.js": "0acf6bf5f87905e53b31eb2c6558be51",
 "themes/LICENSE": "314e21a036e4ea071f111cb5deff83c1",
