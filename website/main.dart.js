@@ -34032,7 +34032,7 @@ if(q===C.bf)return new T.a5(C.n,r,r,new T.a5(C.n,r,r,U.ea(),r),r)
 if(b.c!=null)return new T.a5(C.n,r,r,L.t("Could Not Connect ",r,r,r,r,A.o(r,r,C.t,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),r)
 else{t=b.b
 s=J.ae(t)
-return s.gm(t)===0?new T.a5(C.n,r,r,L.t("Nothing To Show",r,r,r,r,A.o(r,r,C.f,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r),r),r):new T.X(C.Cb,B.i8(new V.agE(t),s.gm(t),C.iG,!0,!0),r)}},
+return s.gm(t)===0?new T.a5(C.n,r,r,L.t("Nothing To Show",r,r,r,r,A.o(r,r,C.f,r,r,r,r,r,r,r,r,18,r,r,r,r,!0,r,r,r,r,r,r),r),r):new T.X(C.Cb,B.i8(new V.agE(t),s.gm(t),C.iG,!1,!0),r)}},
 $S:18}
 V.agE.prototype={
 $2:function(a,b){var t,s,r,q,p=null,o=this.a,n=J.ae(o),m=J.z(n.h(o,b),"title"),l=J.z(n.h(o,b),"description"),k=J.a2(J.z(n.h(o,b),"lessonid"))
@@ -34042,7 +34042,7 @@ t=J.f7(n,0,o.i(l).length>60?60:o.i(l).length-1)
 o=F.S(a,!1).a.a*0.2
 n=C.h.cR(b,2)===0?C.bb:C.t
 s=L.ai(C.CQ,C.E,p)
-r=t.length!==0?"\n# Lesson "+H.b(k):"\nXXX"
+r=t.length!==0?"\n# Lesson "+(b+1):"\nXXX"
 r=L.t(r,p,p,p,p,A.o(p,p,P.a6(204,255,255,255),p,p,p,p,p,p,p,p,16,p,p,p,p,!0,p,p,p,p,p,p),p)
 q=m==null||J.a2(m).length!==0?"\n"+H.b(m)+"\n\n":"\nTitle\n\n"
 return T.ag(H.a([new T.w(p,8,p,p),new T.X(new V.H(o,0,o,0),new L.aC(V.bU(Q.dk(p,p,new V.agD(k,a,m),L.t(q,p,p,p,p,A.o(p,p,C.f,p,p,p,p,p,p,p,p,20,p,C.r,p,p,!0,p,p,p,p,p,p),p),r,s),n,p,p,p),p),p),new T.w(p,5,p,p)],u.p),C.j,p,C.l,C.o)},
