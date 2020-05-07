@@ -2,7 +2,7 @@
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/2336.jpg": "204cf3b90c271a18575a81f69ce0f4fa",
-"assets/AssetManifest.json": "622f60f388bb413eebda23abb38dfd4f",
+"assets/AssetManifest.json": "f34b9caf23d3206e10f6a11c6c61e04b",
 "assets/astore.png": "9fef0094f21dc756d50d570b0f371790",
 "assets/codeNinja.jpg": "ea579a11d6c862421a5e03b0081a08a3",
 "assets/codingRocket2.png": "82739ba18121cff86805e24001f926e1",
@@ -34,17 +34,10 @@ const RESOURCES = {
 "assets/web/favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "assets/web/index.html": "22642fabe28949d18988b9d963a4650e",
 "/": "22642fabe28949d18988b9d963a4650e",
-"assets/web/strapdown.css": "298190b5ca76c135ce9cf6fe3c7b7f71",
-"assets/web/strapdown.js": "0acf6bf5f87905e53b31eb2c6558be51",
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "e85ec97b23a7c37e2843648f8b3eccfd",
-"strapdown.css": "298190b5ca76c135ce9cf6fe3c7b7f71",
-"strapdown.js": "0acf6bf5f87905e53b31eb2c6558be51",
-"themes/LICENSE": "314e21a036e4ea071f111cb5deff83c1",
-"themes/README.md": "5d4ae77a905b350f8ac52dec7d7242f0",
-"themes/united.min.css": "e618d846867e454dfebeeb01e782d280"
+"main.dart.js": "1306c4ee58dfdbf051aca77ee08b1f7c"
 };
 
 self.addEventListener('activate', function (event) {
