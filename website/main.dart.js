@@ -34246,8 +34246,9 @@ R.Qx.prototype={
 A:function(a){var t,s=null,r="iframeElement",q=F.T(a,!1).a
 F.T(a,!1).toString
 $.pR().BF(r,new R.aj7(this))
+q=q.a*0.03
 t=u.p
-return new T.X(new V.I(q.a*0.03,8,8,8),M.x(s,T.ah(H.a([V.bZ(T.ah(H.a([new T.X(new V.I(15,15,15,15),M.x(s,new T.w(800,400,new G.nL(r,new N.zF()),s),s,s,s,s,s,s,s,s,s),s),new T.w(s,15,s,s)],t),C.j,s,C.m,C.o),this.d,20,s,s)],t),C.j,s,C.m,C.o),s,s,s,s,s,s,s,s,s),s)}}
+return new T.X(new V.I(q,8,q,8),M.x(s,T.ah(H.a([V.bZ(T.ah(H.a([new T.X(new V.I(15,15,15,15),M.x(s,new T.w(800,400,new G.nL(r,new N.zF()),s),s,s,s,s,s,s,s,s,s),s),new T.w(s,15,s,s)],t),C.j,s,C.m,C.o),this.d,8,s,s)],t),C.j,s,C.m,C.o),s,s,s,s,s,s,s,s,s),s)}}
 R.aj7.prototype={
 $1:function(a){var t,s=document.createElement("iframe")
 s.width="800"
@@ -34262,8 +34263,9 @@ P:function(){return new R.O2(new P.j(4279308305),new P.j(4280295457),C.r)}}
 R.O2.prototype={
 A:function(a){var t,s=null,r=F.T(a,!1).a
 F.T(a,!1).toString
+r=r.a*0.03
 t=u.p
-return new T.X(new V.I(r.a*0.03,8,8,8),M.x(s,T.ah(H.a([V.bZ(T.ah(H.a([new T.X(new V.I(15,15,15,15),T.bD(C.R,H.a([M.x(s,new T.w(800,400,M.x(s,s,s,s,S.bP(s,s,s,s,s,X.fL(C.d_,new D.eV(this.a.c,1),s),C.J),s,s,s,s,s,s),s),s,s,s,s,s,s,s,s,s)],t),C.N,s,C.M,s),s)],t),C.j,s,C.m,C.o),this.e,20,s,s)],t),C.j,s,C.m,C.o),s,s,s,s,s,s,s,s,s),s)}}
+return new T.X(new V.I(r,8,r,8),M.x(s,T.ah(H.a([V.bZ(T.ah(H.a([new T.X(new V.I(15,15,15,15),T.bD(C.R,H.a([M.x(s,new T.w(800,400,M.x(s,s,s,s,S.bP(s,s,s,s,s,X.fL(C.d_,new D.eV(this.a.c,1),s),C.J),s,s,s,s,s,s),s),s,s,s,s,s,s,s,s,s)],t),C.N,s,C.M,s),s)],t),C.j,s,C.m,C.o),this.e,8,s,s)],t),C.j,s,C.m,C.o),s,s,s,s,s,s,s,s,s),s)}}
 A.to.prototype={
 P:function(){return new A.Qy(new P.j(4278651705),0.5,C.r)}}
 A.Qy.prototype={
@@ -35803,8 +35805,8 @@ qu:function(a){return!1}}
 X.xK.prototype={
 P:function(){return new X.O4(new P.j(111011),new P.j(4280295457),C.r)}}
 X.O4.prototype={
-A:function(a){var t=null,s=u.p
-return new T.X(new V.I(F.T(a,!1).a.a*0.03,8,8,8),M.x(t,T.ah(H.a([V.bZ(T.ah(H.a([new T.X(new V.I(15,15,15,15),T.bD(C.R,H.a([M.x(t,new T.w(800,t,M.x(t,this.a.c,t,t,t,t,t,t,t,t,t),t),t,t,t,t,t,t,t,t,t)],s),C.N,t,C.M,t),t)],s),C.j,t,C.m,C.o),new P.j(4294113271),20,t,t)],s),C.j,t,C.m,C.o),t,t,t,t,t,t,t,t,t),t)}}
+A:function(a){var t=null,s=F.T(a,!1).a.a*0.03,r=u.p
+return new T.X(new V.I(s,8,s,8),M.x(t,T.ah(H.a([V.bZ(T.ah(H.a([new T.X(new V.I(15,15,15,15),T.bD(C.R,H.a([M.x(t,new T.w(800,t,M.x(t,this.a.c,t,t,t,t,t,t,t,t,t),t),t,t,t,t,t,t,t,t,t)],r),C.N,t,C.M,t),t)],r),C.j,t,C.m,C.o),new P.j(4294113271),8,t,t)],r),C.j,t,C.m,C.o),t,t,t,t,t,t,t,t,t),t)}}
 Q.ns.prototype={
 P:function(){var t=4278651705,s=u.u,r=H.a([],s),q=u.A
 return new Q.Mq(new D.bw(C.I,new R.af(r,q)),new D.bw(C.I,new R.af(H.a([],s),q)),new P.j(t),new P.j(t),"https://codeish.live",H.a([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],u.t),null,C.r)}}
