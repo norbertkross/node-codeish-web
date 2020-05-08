@@ -34166,24 +34166,23 @@ R.nY.prototype={
 P:function(){var t=4278651705
 return new R.Nl(new P.j(t),new P.j(t),"https://codeish.live",C.q)}}
 R.Nl.prototype={
-b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n,m,l,k
+b5:function(){var t=0,s=P.O(u.j),r,q=this,p,o,n,m,l
 var $async$b5=P.K(function(a,b){if(a===1)return P.L(b,s)
 while(true)switch(t){case 0:P.m("Loading ....")
 P.m("The Course id: "+H.b(q.a.c))
 p="?lessonid="+H.b(q.a.d)
 P.m("The formatCourse: "+p)
 o=q.r
-n=o+"/lessons"
-m=q.a.d
-P.m(n+(m!=null))
-o+="/lessons"
+n=o+"/SpecificLesson"
+P.m(n+(q.a.d!=null?p:"?lessonid=0"))
+o+="/SpecificLesson"
 n=u.N
 t=3
 return P.a8(G.dr(P.bL(C.a3,o+(q.a.d!=null?p:"?lessonid=0"),C.B,!1),P.ac(["Accept","application/json","Content-Type","application/x-www-form-urlencoded"],n,n)).bV(new R.ac3()),$async$b5)
-case 3:l=b
-k=C.U.aM(0,B.d7(U.d6(l.e).c.a.h(0,"charset")).aM(0,l.x))
-P.m("results ::\n\n"+H.b(k)+"\n\n")
-r=k
+case 3:m=b
+l=C.U.aM(0,B.d7(U.d6(m.e).c.a.h(0,"charset")).aM(0,m.x))
+P.m("results ::\n\n"+H.b(l)+"\n\n")
+r=l
 t=1
 break
 case 1:return P.M(r,s)}})
