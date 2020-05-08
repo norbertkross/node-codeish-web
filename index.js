@@ -36,6 +36,7 @@ const passwordRecovery = require('./RequestsData/sendUserEmails/handleVerificati
 const passcode = require('./RequestsData/sendUserEmails/passcode')
 const verifyResetEmail = require('./RequestsData/sendUserEmails/verifyResetEmail')
 const updatePassword = require('./RequestsData/sendUserEmails/updatePassword')
+const specificLesson = require('./RequestsData/CoursesAndLessons/specificLesson')
 
 
 
@@ -122,6 +123,8 @@ app.use('/vid-playr-pic', express.static(__dirname+'/uploads/videoplayerFiles'))
       app.use(verifyResetEmail)
 
       app.use(updatePassword)
+
+      app.use(specificLesson)
 
       //readChatMessages
 
