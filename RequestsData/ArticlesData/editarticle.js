@@ -22,10 +22,12 @@ console.log(`MINS:  ${mins}`);
   myQuery,(err,rows,cols) =>{
          if(!err){
            res.json("Successful");
+           console.log("Update Successfull");
            //res.json("Registration Failed");
-           console.log(err);
+           
          }else {
            res.json("Request Failed");
+           console.log(err);
          }
 
   });
