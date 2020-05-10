@@ -6,7 +6,6 @@ This chunk is to fix Bootstrap so that the Markdown output looks good
 *******************************************************************/
 
 body {
-  width: 50%;
   padding-top: 60px;
   padding-bottom: 40px;
   font-size: 15px;
