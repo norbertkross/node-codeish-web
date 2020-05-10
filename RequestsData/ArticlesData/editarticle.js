@@ -10,11 +10,10 @@ updateArticleRouter.post("/updateMyArticle",(req,res,err)=>{
   var body = req.query.body
   var mins = req.query.mins
 
-console.log(`ARTICLE ID: ${articleid}`);
-console.log(`HEADING:  ${head}`);
 
 console.log(`BODY:  \n ${body}`);
-
+console.log(`ARTICLE ID: ${articleid}`);
+console.log(`HEADING:  ${head}`);
 console.log(`MINS:  ${mins}`);
   const myQuery = `UPDATE Articles SET heading="${head}", article="${body}", mins='${mins}' WHERE articleId='${articleid}'`;
 
