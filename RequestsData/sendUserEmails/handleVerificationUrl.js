@@ -41,7 +41,7 @@ var myQuery = `UPDATE Users SET isVerified = "1" WHERE email = "${uemail}"`;
                       <script>
 
                       setTimeout(function (){
-                        window.location = 'https://codeish.surge.sh'
+                        window.location = 'https://codeish.live'
                       },3000);
                       </script>
                       </head>
