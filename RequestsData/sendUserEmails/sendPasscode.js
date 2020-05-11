@@ -274,7 +274,6 @@ var sendVerfCode = function (userEmail,theusername,vefCode){
             <div style="margin-bottom: 4px;">Software Technologies</div>
             <div style="margin-bottom: 4px;">Accra - Ghana</div> -->
             <div style="margin-bottom: 20px;">
-            </a><a href="#" title="Unsubscribe from Codeish Emails" target="_blank" style="color:#999999; font-weight:700; text-decoration:none; ">Unsubscribe</a>
             </div>
           </div>
 
