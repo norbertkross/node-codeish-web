@@ -34974,11 +34974,11 @@ t=2
 return P.a6(K.xm(r.cx,R.lS("application","octet-stream",null),H.c(r.z)),$async$nT)
 case 2:o=n.wj(m.ab(["picture",g],q,p))
 t=3
-return P.a6(U.hX(null).n6(P.bI(C.a3,r.dy+"/uploadLesson?courseid="+r.a.c+"&title="+H.c(d)+"&sendfile=yes&typeOf="+H.c(e)+"&baseurl="+a,C.A,!1),o,new O.a6V(r),P.ab(["description",H.c(r.f.a.a)],q,p),p).aT(new O.a6W(r),u.P).bV(new O.a6X(r)),$async$nT)
+return P.a6(U.hX(null).n6(P.bI(C.a3,r.dy+"/uploadLesson",C.A,!1),o,new O.a6V(r),P.ab(["description",H.c(r.f.a.a),"courseid",r.a.c,"title",d,"sendfile","yes","typeOf",e,"baseurl",a],q,p),p).aT(new O.a6W(r),u.P).bV(new O.a6X(r)),$async$nT)
 case 3:return P.L(null,s)}})
 return P.M($async$nT,s)},
 N7:function(a,b,c,d,e){var t=this,s=u.z
-U.hX(null).Mh(P.bI(C.a3,t.dy+"/uploadLesson?courseid="+t.a.c+"&title="+H.c(c)+"&videoUrl="+H.c(e)+"&typeOf="+d,C.A,!1),new O.a7n(t),P.ab(["description",H.c(t.f.a.a)],u.N,s),s).aT(new O.a7o(t),u.P).bV(new O.a7p(t))}}
+U.hX(null).Mh(P.bI(C.a3,t.dy+"/uploadLesson",C.A,!1),new O.a7n(t),P.ab(["description",H.c(t.f.a.a),"courseid",t.a.c,"title",c,"videoUrl",e,"typeOf",d],u.N,s),s).aT(new O.a7o(t),u.P).bV(new O.a7p(t))}}
 O.a7b.prototype={
 $0:function(){this.a.Q=this.b[0]},
 $S:0}
@@ -35778,11 +35778,11 @@ case 2:n=l.wj(k.ab(["picture",b],p,o))
 m=U.hX(null)
 r.v(new U.ajT(r))
 q=r.cx
-m.n6(P.bI(C.a3,q+"/uploadArticle?userid="+H.c(r.Q)+"&heading="+H.c(r.f.a.a)+"&mins="+H.c(r.db)+"&headerimage=yes&baseurl="+q,C.A,!1),n,new U.ajU(r),P.ab(["body",H.c(r.e.a.a)],p,o),o).aT(new U.ajV(r),u.P).bV(new U.ajW(r))
+m.n6(P.bI(C.a3,q+"/uploadArticle",C.A,!1),n,new U.ajU(r),P.ab(["body",H.c(r.e.a.a),"userid",r.Q,"heading",H.c(r.f.a.a),"mins",r.db,"headerimage","yes","baseurl",q],p,o),o).aT(new U.ajV(r),u.P).bV(new U.ajW(r))
 return P.L(null,s)}})
 return P.M($async$t4,s)},
 a9b:function(){var t=this,s=u.z
-U.hX(null).Mh(P.bI(C.a3,t.cx+"/uploadArticle?userid="+H.c(t.Q)+"&heading="+H.c(t.f.a.a)+"&mins="+H.c(t.db),C.A,!1),new U.akn(t),P.ab(["body",H.c(t.e.a.a)],u.N,s),s).aT(new U.ako(t),u.P).bV(new U.akp(t))},
+U.hX(null).Mh(P.bI(C.a3,t.cx+"/uploadArticle",C.A,!1),new U.akn(t),P.ab(["body",H.c(t.e.a.a),"userid",t.Q,"heading",t.f.a.a,"mins",t.db],u.N,s),s).aT(new U.ako(t),u.P).bV(new U.akp(t))},
 an:function(){var t,s,r=this
 r.aF()
 r.d=U.a50(2,r)

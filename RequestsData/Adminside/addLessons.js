@@ -46,7 +46,7 @@ if(sendfile != null){
       console.log("yES oK");
 
 
-  const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date,courseid) VALUES ("${title}", "${description}", "${endFile}","${typeOf}", '${curtime}', '${curdate}','${courseid}')`
+  const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date,courseid) VALUES (`+`${JSON.stringify(title)},`+`${JSON.stringify(description)},`+` "${endFile}","${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 // When The Users Data Has Been Fetched INSERT The Incoming Data Into Users Table
                mysqlConnection.query(myQuery,
                    (err,rows,cols)=>{
@@ -69,7 +69,7 @@ else {
 
   console.log("No Image");
 // INSERT The Incoming Data Into Users Table
-const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES ("${title}", "${description}", '${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
+const myQuery = `INSERT INTO Lessons (title, description, videoUrl, typeOf, time, date, courseid) VALUES (`+`${JSON.stringify(title)},`+`${JSON.stringify(description)},`+`'${videoUrl}',"${typeOf}", '${curtime}', '${curdate}','${courseid}')`
 
          mysqlConnection.query(myQuery,
              (err,rows,cols)=>{

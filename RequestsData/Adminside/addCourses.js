@@ -33,7 +33,7 @@ var randName = Math.floor(Math.random() * 199897864369799990);
     if (state == "OK") {
       console.log("yES oK");
 
-      const myQuery = `INSERT INTO Courses (title, description, coursepic, price ) VALUES ("${title}",  "${description}",  "${endFile}", "${price}")`;
+      const myQuery = `INSERT INTO Courses (title, description, coursepic, price ) VALUES (`+`${JSON.stringify(title)},`+`${JSON.stringify(description)},`+` "${endFile}", "${price}")`;
 // When The Users Data Has Been Fetched INSERT The Incoming Data Into Users Table
                mysqlConnection.query(myQuery,
                    (err,rows,cols)=>{

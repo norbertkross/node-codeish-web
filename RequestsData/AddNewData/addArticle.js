@@ -62,7 +62,7 @@ if(headerimage != null){
                var author = rows[0].name;
                var pic = rows[0].pic;
 if(rows != null){
-      const myQuery = `INSERT INTO Articles (heading, author, article, arttime, artdate, mins, userpic, headerpic,userid,views) VALUES ("${heading}",  "${author}",  "${body}", '${curtime}',   '${curdate}',   '${mins}', '${pic == null?'http://via.placeholder.com/350x150':pic}', '${endFile}','${userid}','0')`;
+      const myQuery = `INSERT INTO Articles (heading, author, article, arttime, artdate, mins, userpic, headerpic,userid,views) VALUES (`+`${JSON.stringify(heading)},`+`"${author}",`+`${JSON.stringify(body)},`+`'${curtime}',   '${curdate}',   '${mins}', '${pic == null?'http://via.placeholder.com/350x150':pic}', '${endFile}','${userid}','0')`;
 // When The Users Data Has Been Fetched INSERT The Incoming Data Into Users Table
                mysqlConnection.query(myQuery,
                    (err,rows,cols)=>{
@@ -104,7 +104,7 @@ mysqlConnection.query(`SELECT * FROM Users WHERE userid = '${userid}'`,
 if(rows != null){
 
 // When The Users Data Has Been Fetched INSERT The Incoming Data Into Users Table
-const myQuery = `INSERT INTO Articles (heading, author, article, arttime, artdate, mins, userpic, headerpic,userid) VALUES ("${heading}", "${author}", "${body}",'${curtime}', '${curdate}', '${mins}', '${pic == null?"http://via.placeholder.com/350x150":pic}', '${headImg}','${userid}')`;
+const myQuery = `INSERT INTO Articles (heading, author, article, arttime, artdate, mins, userpic, headerpic,userid) VALUES (`+`${JSON.stringify(heading)},`+` "${author}",`+`${JSON.stringify(body)},`+`'${curtime}', '${curdate}', '${mins}', '${pic == null?"http://via.placeholder.com/350x150":pic}', '${headImg}','${userid}')`;
 
          mysqlConnection.query(myQuery,
              (err,rows,cols)=>{
