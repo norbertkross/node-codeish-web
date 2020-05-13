@@ -36,7 +36,7 @@ const RESOURCES = {
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "bd16a54916e0e47befc8244841a7c544"
+"main.dart.js": "dd91c02be0f2bbc2a06241cd307c37bf"
 };
 
 self.addEventListener('activate', function (event) {

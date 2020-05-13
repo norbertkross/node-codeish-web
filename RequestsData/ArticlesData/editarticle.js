@@ -15,7 +15,9 @@ console.log(`BODY:  \n ${body}`);
 console.log(`ARTICLE ID: ${articleid}`);
 console.log(`HEADING:  ${head}`);
 console.log(`MINS:  ${mins}`);
-  const myQuery = `UPDATE Articles SET heading="${head}", article="${body}", mins='${mins}' WHERE articleId='${articleid}'`;
+const myQuery = `UPDATE Articles SET heading=`+`${JSON.stringify(head)},`+`article=${JSON.stringify(body)},`+`mins='${mins}' WHERE articleId='${articleid}'`;
+
+  // const myQuery = `UPDATE Articles SET heading="${head}", article="${body}", mins='${mins}' WHERE articleId='${articleid}'`;
 
   mysqlConnection.query(
   myQuery,(err,rows,cols) =>{
