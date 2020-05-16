@@ -41,7 +41,7 @@ const RESOURCES = {
 "assets/_Wipes_48px.png": "d6fcc131d6b064bae1c8b4e837fc0254",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "be781707d5ae5ec82db7b323b3933fc1"
+"main.dart.js": "acd3b87eac4ed5d2949efbf4e013df85"
 };
 
 self.addEventListener('activate', function (event) {
