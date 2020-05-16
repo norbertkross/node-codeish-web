@@ -34,9 +34,14 @@ const RESOURCES = {
 "assets/web/index.html": "22642fabe28949d18988b9d963a4650e",
 "/": "22642fabe28949d18988b9d963a4650e",
 "assets/youtube.png": "fc36174c988eb3c628c7d4267d498efd",
+"assets/_Domain_96px.png": "be0c0b5bc4cea064414ac9af3ab6ebe6",
+"assets/_Exercise_48px.png": "d7f719d58914adfa35591c0e6bdabad5",
+"assets/_Robot_48px.png": "6c8fb7bee7c880606f2765ce67beecfe",
+"assets/_Smartphone_Tablet_48px.png": "69c2d0c8de6675c1b34768ac6e3602c3",
+"assets/_Wipes_48px.png": "d6fcc131d6b064bae1c8b4e837fc0254",
 "favicon.ico": "00f60d999e16e77adbffd7a2f74508ff",
 "index.html": "22642fabe28949d18988b9d963a4650e",
-"main.dart.js": "309f41cd95da9d5710e2a6967c29f1d7"
+"main.dart.js": "be781707d5ae5ec82db7b323b3933fc1"
 };
 
 self.addEventListener('activate', function (event) {
