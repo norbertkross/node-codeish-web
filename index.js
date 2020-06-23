@@ -45,11 +45,18 @@ app.use(cors())
 //Use this folder [website] whenever the user requests for the "/" route
 // otherwise  content in the HTML file that point to other files cant be read
 app.use('/', express.static(path.join(__dirname, 'website')));
+app.use('/resumfolio', express.static(path.join(__dirname, 'website')));
 
 // whenever the user requests for "/" send the HTML homepage to him
 app.get('/', (req, res,err) => {
     //res.send("<h1>NO DATA AVAILABLE HERE")
     res.sendFile(__dirname + '/website/index.html');
+  });
+
+// whenever the user requests for "/resumfolio" send the HTML homepage to him
+app.get('/resumfolio', (req, res,err) => {
+    //res.send("<h1>NO DATA AVAILABLE HERE")
+    res.sendFile(__dirname + '/website/privacy_policy.html');
   });
 
 
